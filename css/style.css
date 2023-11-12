@@ -1,3 +1,24 @@
+/* Page Settings */
+
+h2 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 3rem;
+}
+
+.btn:hover {
+    box-shadow: 0.25rem 0.25rem #ffa695;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Nav Section */
+
 .navbar {
     background-color: #e7e7e7;
 
@@ -11,10 +32,14 @@ body>nav>div>span {
     font-family: 'Space Mono', monospace;
 }
 
+/* Hero Section */
+
 .hero {
     background-color: #ffe8b3;
     padding: 8rem 2rem;
 }
+
+/* Work Section */
 
 .work {
     background-color: #90d6c3;
@@ -22,49 +47,34 @@ body>nav>div>span {
 
 }
 
+.work .btn:hover {
+    box-shadow: 0.25rem 0.25rem #90d6c3;
+}
+
+/* Skills Section */
+
 .skills {
     padding: 8rem 2rem;
     background-color: #ffa695;
 
 }
 
-h2 {
-    font-family: 'Goudy Bookletter 1911', serif;
-    font-size: 3rem;
-}
-
-.about-me .btn {
-    color: #e7e7e7;
-}
-
-.work .btn:hover {
-    box-shadow: 0.25rem 0.25rem #90d6c3;
-}
-
-.btn:hover {
-    box-shadow: 0.25rem 0.25rem #ffa695;
-}
-
-.btn {
-    border-radius: 0;
-}
+/* About Me Section */
 
 .about-me {
     background-color: #73a9ba;
     padding: 8rem 2rem;
 }
 
+.about-me .btn {
+    color: #e7e7e7;
+}
+
+/* Footer Section */
+
 .footer {
     background-color: #e7e7e7;
     padding: 4rem 2rem;
-}
-
-p {
-    font-family: 'Mulish', sans-serif;
-}
-
-.icon {
-    margin: 0.3rem;
 }
 
 .footer a {
@@ -75,4 +85,12 @@ p {
 .footer a:hover {
     background-color: #212529;
     color: #e7e7e7;
+}
+
+.icon {
+    margin: 0.3rem;
+}
+
+footer a {
+    text-decoration: none;
 }
