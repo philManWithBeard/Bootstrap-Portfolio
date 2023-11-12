@@ -69,7 +69,7 @@ p {
 
 .footer a {
     color: inherit;
-    padding: 0.5rem;
+    padding: .3rem 0;
 }
 
 .footer a:hover {
