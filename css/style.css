@@ -33,10 +33,16 @@ h2 {
     font-size: 3rem;
 }
 
-.hero .btn {
-    color: #ffe8b3;
-    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+.about-me .btn {
+    color: #e7e7e7;
+}
 
+.work .btn:hover {
+    box-shadow: 0.25rem 0.25rem #90d6c3;
+}
+
+.btn:hover {
+    box-shadow: 0.25rem 0.25rem #ffa695;
 }
 
 .btn {
@@ -63,4 +69,10 @@ p {
 
 .footer a {
     color: inherit;
+    padding: 0.5rem;
+}
+
+.footer a:hover {
+    background-color: #212529;
+    color: #e7e7e7;
 }
