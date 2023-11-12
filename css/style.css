@@ -56,3 +56,11 @@ h2 {
 p {
     font-family: 'Mulish', sans-serif;
 }
+
+.icon {
+    margin: 0.3rem;
+}
+
+.footer a {
+    color: inherit;
+}
