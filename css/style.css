@@ -28,7 +28,7 @@ p {
     font-family: 'Oswald', sans-serif;
 }
 
-body>nav>div>span {
+body>header>div>span {
     font-family: 'Space Mono', monospace;
 }
 
@@ -72,17 +72,17 @@ body>nav>div>span {
 
 /* Footer Section */
 
-.footer {
+footer {
     background-color: #e7e7e7;
     padding: 4rem 2rem;
 }
 
-.footer a {
+footer a {
     color: inherit;
     padding: .3rem 0;
 }
 
-.footer a:hover {
+#footer-links:hover {
     background-color: #212529;
     color: #e7e7e7;
 }
@@ -93,4 +93,12 @@ body>nav>div>span {
 
 .icons a {
     text-decoration: none;
+}
+
+.icons path {
+    fill: #e7e7e7;
+}
+
+.icons path:hover {
+    fill: #ffa695;
 }
